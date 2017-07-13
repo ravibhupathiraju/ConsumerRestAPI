@@ -24,6 +24,7 @@ public class ConsumeApplication {
 
 	private static final Logger log = LoggerFactory.getLogger(ConsumeApplication.class);
 
+//	CODE for consuming rest API using rest template
 //	public static void main(String args[]) {
 //		SpringApplication.run(ConsumeApplication.class);
 //	}
@@ -33,6 +34,7 @@ public class ConsumeApplication {
 //		return builder.build();
 //	}
 
+//
 //	@Bean
 //	public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
 //		return args -> {
@@ -55,18 +57,7 @@ public class ConsumeApplication {
 //		return idclass;
 //		};
 	
-//	@Bean
-//	public   Book run(RestTemplate restTemplate) throws Exception {
-//		HttpEntity<Book> request = new HttpEntity<>(new Book());
-//		B idclass;
-//		idclass = restTemplate
-//				  .postForObject("http://jsonplaceholder.typicode.com/posts", book, null, null);
-////		log.info("ok1");
-////		URI location = restTemplate
-//		System.out.println(idclass);
-////		assertThat(location, notNullValue());
-//		return idclass;
-//		};
+//	Code for posting to REST API using rest template
 	   public static void main(String[] args) {
 	        // TODO Auto-generated method stub
 	        MultiValueMap<String, String> headers = new LinkedMultiValueMap<String, String>();
